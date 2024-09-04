@@ -1,0 +1,32 @@
+/* Reset de CSS global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #202020;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Tipografia para uma melhor legibilidade */
+body {
+    font-size: 16px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Responsividade global */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
